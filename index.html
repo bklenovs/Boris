@@ -1,15 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="sredstva/styles/main.css">
   </head>
   <body>
-    <h1>Hello World!!!!!!</h1>
+    <h1>Hello World!!!!!</h1>
     <img src="media/slike/Twine/Klen.jpg">
     <a href="media/slike/Twine/Suki.jpg">Suki</a>
     <a href="blog/blog.html">Blog</a>
     <script src="sredstva/script/main.js"></script>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    We are using Node.js <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
   </body>
 </html>

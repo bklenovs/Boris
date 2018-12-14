@@ -1,0 +1,16 @@
+{
+  "name": "comfortable-cough-matter",
+  "productName": "comfortable-cough-matter",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Boris",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "2.0.7"
+  }
+}
