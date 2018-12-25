@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html>
-<p>
-<input type="button" onclick="history.back();" value="&#8249;" />
-<input type="button" onclick="history.forward();" value="&#8250;" />
-</p>
 <head>
   <meta charset="UTF-8">
-  <title>Suki</title>
-  <link rel="stylesheet" type="text/css" href="sredstva/style/main.css">
+  <link href='slike/Twine/Sukico.jpg' rel='icon' type='image/x-icon'/>
+  <title>Maklen</title>
+  <link rel="stylesheet" type="text/css" href="style/main.css">
 </head>
 <body>
-  <h1>Hello from Suki!!!!!!</h1>
-  <img src="media/slike/Twine/Klen.jpg">
-  <img src="media/slike/Twine/Suki.jpg">
-  <a href="blog/blog.html">Vaja</a>
-  <a href="https://klenovsekboris.blogspot.si">Blog</a>
-  <a href="https://bklenovs.github.io/mytwine">Maklen</a>
+<a href="http://klenovsekboris.blogspot.com/">Blog</a>
+<h1 style="text-align:center; color:#808000">Maklen</h1>
+<h4>Nasvet</h4>
+<h6>Vpiši svoje ime<input type="text" id="ime" value=""></h6><button onclick="my1Function()">Klikni</button>
+<p><output type="text" id="odg"></p>
+
+<img src="slike/Twine/Klen.jpg" width="200" height="200"><img src="slike/Twine/ZaKavo.jpg" width="200" height="200"><img src="slike/Twine/Weird.jpg" width="200" height="200">
+
+<h4 onclick="my2Function()">Iskrice</h4>
+<h5 id="demo1"></h5><h5 id="demo2"></h5><h5 id="demo3"></h5>
+
+<audio controls><source src="glasba/Twine/Showogg.ogg" type="audio/ogg"><source src="glasba/Twine/Showmp3.mp3" type="audio/mpeg"></audio>ShowMustGoOn<br>
+<audio controls><source src="glasba/Twine/Chainedogg.ogg" type="audio/ogg"><source src="glasba/Twine/Chainedmp3.mp3" type="audio/mpeg"></audio>ChainedToTheRhythm<br>
+<audio controls><source src="glasba/Twine/Championsogg.ogg" type="audio/ogg"><source src="glasba/Twine/Championsmp3.mp3" type="audio/mpeg"></audio>WeAreTheChampions<br>  
+<audio controls><source src="glasba/Twine/Humanogg.ogg" type="audio/ogg"><source src="glasba/Twine/Humanmp3.mp3" type="audio/mpeg"></audio>Human<br>
+<audio controls><source src="glasba/Twine/Swanogg.ogg" type="audio/ogg"><source src="glasba/Twine/Swanmp3.mp3" type="audio/mpeg"></audio>The Swan<br>  
+<br>
+<a href="home/CodeKlen.html">CodeKlen</a>
+<br>
+<a href="home/MojeZgodbe.html">MojeZgodbe</a>
+
+<script>
+function my1Function() {
+document.getElementById("odg").value = document.getElementById("ime").value + ", skoraj vse kar počneš, se ti bo zdelo nepomembno, toda zelo pomembno je, da to počneš.";
+} 
+function my2Function() {
+document.getElementById("demo1").innerHTML = "Vse kar lahko dosežeš brez truda in dela, nima prave vrednosti.";
+document.getElementById("demo2").innerHTML = "Samo tisti, ki tvegajo in gredo predaleč, lahko odkrijejo, kako daleč je mogoče priti.";
+document.getElementById("demo3").innerHTML = "Skrivnost sreče je v tem, da zmoreš najti radost v veselju drugega.";
+}
+</script> 
 </body>
 </html>
