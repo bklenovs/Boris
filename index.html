@@ -97,6 +97,7 @@ body .title {
 
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">$("body").append('<div class="subtitle">@Boris</div>');
 
 $("body").append('<div class="title">Nekaj se naučiti, pomeni zmagati!</div>');
@@ -138,15 +139,26 @@ $("body").append('<div class="title">Nekaj se naučiti, pomeni zmagati!</div>');
 
 
 
-</script><tw-passagedata pid="1" name="Maklen" tags="" position="204,100" size="100,100">&lt;a href=&quot;http://klenovsekboris.blogspot.com&quot; style=&quot;color:white&quot;&gt;Blog&lt;/a&gt;
+
+</script><tw-passagedata pid="1" name="Maklen" tags="" position="205,40" size="100,100">&lt;a href=&quot;http://klenovsekboris.blogspot.com&quot; style=&quot;color:white&quot;&gt;Blog&lt;/a&gt;
 &lt;h1 style=&quot;text-align:center; color:lightblue&quot;&gt;Maklen&lt;/h1&gt;
 &lt;h4&gt;Nasvet&lt;/h4&gt;
 &lt;h6&gt;Vpiši svoje ime&lt;input type=&quot;text&quot; id=&quot;ime&quot; value=&quot;&quot;&gt;&lt;/h6&gt;&lt;button onclick=&quot;my1Function()&quot;&gt;Klikni&lt;/button&gt;
 &lt;p&gt;&lt;output type=&quot;text&quot; id=&quot;odg&quot;&gt;&lt;/p&gt;
-[[Utrinki]]
-
 &lt;img src=&quot;slike/Twine/Klen.jpg&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;&lt;img src=&quot;slike/Twine/ZaKavo.jpg&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;&lt;img src=&quot;slike/Twine/Weird.jpg&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;
-&lt;button onclick=&quot;my2Function()&quot;&gt;Iskrice&lt;/button&gt;
+
+[[Utrinek]]
+
+&lt;script&gt;
+function my1Function() {
+document.getElementById(&quot;odg&quot;).value = document.getElementById(&quot;ime&quot;).value + &quot;, skoraj vse kar počneš, se ti bo zdelo nepomembno, toda zelo pomembno je, da to počneš.&quot;;
+} 
+function my2Function() {
+document.getElementById(&quot;demo1&quot;).innerHTML = &quot;Vse kar lahko dosežeš brez truda in dela, nima prave vrednosti.&quot;;
+document.getElementById(&quot;demo2&quot;).innerHTML = &quot;Samo tisti, ki tvegajo in gredo predaleč, lahko odkrijejo, kako daleč je mogoče priti.&quot;;
+document.getElementById(&quot;demo3&quot;).innerHTML = &quot;Skrivnost sreče je v tem, da zmoreš najti radost v veselju drugega.&quot;;
+}
+&lt;/script&gt; </tw-passagedata><tw-passagedata pid="2" name="Utrinek" tags="" position="482,203" size="100,100">&lt;button onclick=&quot;my2Function()&quot;&gt;Iskrice&lt;/button&gt;
 &lt;h5 id=&quot;demo1&quot;&gt;&lt;/h5&gt;&lt;h5 id=&quot;demo2&quot;&gt;&lt;/h5&gt;&lt;h5 id=&quot;demo3&quot;&gt;&lt;/h5&gt;
 &lt;audio controls&gt;&lt;source src=&quot;glasba/Twine/Showogg.ogg&quot; type=&quot;audio/ogg&quot;&gt;&lt;source src=&quot;glasba/Twine/Showmp3.mp3&quot; type=&quot;audio/mpeg&quot;&gt;&lt;/audio&gt;ShowMustGoOn
 &lt;audio controls&gt;&lt;source src=&quot;glasba/Twine/Chainedogg.ogg&quot; type=&quot;audio/ogg&quot;&gt;&lt;source src=&quot;glasba/Twine/Chainedmp3.mp3&quot; type=&quot;audio/mpeg&quot;&gt;&lt;/audio&gt;ChainedToTheRhythm
@@ -166,7 +178,7 @@ document.getElementById(&quot;demo1&quot;).innerHTML = &quot;Vse kar lahko dose�
 document.getElementById(&quot;demo2&quot;).innerHTML = &quot;Samo tisti, ki tvegajo in gredo predaleč, lahko odkrijejo, kako daleč je mogoče priti.&quot;;
 document.getElementById(&quot;demo3&quot;).innerHTML = &quot;Skrivnost sreče je v tem, da zmoreš najti radost v veselju drugega.&quot;;
 }
-&lt;/script&gt; </tw-passagedata><tw-passagedata pid="2" name="Utrinki" tags="" position="360,215" size="100,100">Uredi.</tw-passagedata></tw-storydata>
+&lt;/script&gt; </tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
