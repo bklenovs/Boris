@@ -1,1 +1,1 @@
-<link href='https://od.lk/s/OTBfMjI4OTg2MjRf/Sukico.jpg' rel='icon' type='image/x-icon'/>
+<link href='https://i.postimg.cc/HLrrF78y/Sukico.jpg' rel='icon' type='image/x-icon'/>
