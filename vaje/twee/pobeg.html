@@ -11,67 +11,111 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Pobeg" startnode="1" creator="Twee2" creator-version="0.5.0" ifid="2aa3e25f-8913-49f2-ac1a-399966f0c4aa" format="Harlowe" options=""><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="">Prebudiš se v temni sobi. Tvoje oči se počasi privajajo na temo, a še vedno ne moreš jasno videti svoje okolice. Čutiš hladen kamnit tlak pod seboj in vohaš vlago v zraku. Kaj boš storil?
+<tw-storydata name="Pobeg" startnode="1" creator="Twee2" creator-version="0.5.0" ifid="495e1089-77b3-4190-8ff9-3321cdbe491f" format="Harlowe" options=""><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
+  background-image: linear-gradient(-135deg, beige, khaki);
+  background-image: -webkit-linear-gradient(-45deg, beige, khaki);
+  background-color: beige;
+  color: grey;
+  width: 90%;
+  margin:auto;
+  margin-bottom: 1%;
+  padding: 2em;
+  box-shadow: inset 0 0 2em olive;
+}
+
+tw-passage {
+  width: 85%; 
+  padding: 1em; 
+  margin: auto;
+  margin-bottom: 40%;
+  border: solid olive 0.01em; 
+  border-radius: 0.1em; 
+  background-color: khaki; 
+  box-shadow: olive 0.1em 0.1em 0;
+}
+
+tw-sidebar {
+  border: solid olive 0.01em;
+  padding-bottom: 0.1m;  
+  background-color: beige;
+  background-position: right; 
+  background-size: cover; 
+}
+
+tw-icon {
+  border: solid olive 0.01em;
+  color: grey;
+  opacity: 0.75;
+  font-size: 1.75em;
+  padding-bottom: 0.1em;  
+  background-color: khaki; 
+  background-position: center; 
+  background-size: cover; 
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">$("body").append('<div class="subtitle" style="color:grey">V znanju je moč</div>');
+
+  $("body").append('<div class="subtitle" style="color:grey">@Boris</div>');
+</script><tw-passagedata pid="1" name="Start" tags="" position="">Prebudiš se v temni sobi. Tvoje oči se počasi privajajo na temo, a še vedno ne moreš jasno videti svoje okolice. Čutiš hladen kamnit tlak pod seboj in vohaš vlago v zraku. Kaj boš storil?
 
 [[Poskusiš vstati]]
-[[Pokličeš na pomoč]]</tw-passagedata><tw-passagedata pid="2" name="Poskusiš vstati" tags="" position="">Z naporom se dvigneš na noge. Ko se premikaš, zaslišiš žvenket verig. Šele zdaj opaziš, da so tvoji gležnji vklenjeni. Veriga je dovolj dolga, da ti omogoča nekaj gibanja po sobi.
-
-[[Preišči sobo]]
-[[Poskusi se osvoboditi verig]]</tw-passagedata><tw-passagedata pid="3" name="Pokličeš na pomoč" tags="" position="">"Halo! Je kdo tam?" tvoj glas odmeva po praznem prostoru. Za trenutek vlada tišina, nato pa zaslišiš oddaljene korake, ki se približujejo.
-
-[[Počakaš v tišini]]
-[[Nadaljuješ s klicanjem]]</tw-passagedata><tw-passagedata pid="4" name="Preišči sobo" tags="" position="">Ko se premikaš po sobi, s prsti tipaš po stenah. Občutiš hladen kamen in tu pa tam vlažen mah. Nenadoma tvoji prsti naletijo na nekaj kovinskega - zdi se, da je to ključavnica.
-
-[[Poskusi odpreti ključavnico]]
-[[Nadaljuj s preiskovanjem sobe]]</tw-passagedata><tw-passagedata pid="5" name="Poskusi se osvoboditi verig" tags="" position="">Potegneš za verige, a so trdno pritrjene v steno. Medtem ko se boriš z njimi, opaziš, da je eden od členov nekoliko zarjavel.
-
-[[Poskusi zlomiti zarjaveli člen]]
-[[Opusti poskus in razmisli o drugih možnostih]]</tw-passagedata><tw-passagedata pid="6" name="Počakaš v tišini" tags="" position="">Odločiš se, da boš počakal v tišini. Koraki se ustavijo pred vrati. Slišiš škripanje ključa v ključavnici.
-
-[[Pripravi se na soočenje]]
-[[Pretvarjaj se, da spiš]]</tw-passagedata><tw-passagedata pid="7" name="Nadaljuješ s klicanjem" tags="" position="">"Prosim, pomagajte mi! Kje sem?" nadaljuješ s klicanjem. Koraki se pospešijo in kmalu zaslišiš, kako se nekdo ustavi pred vrati.
-
-[[Umolkneš in čakaš]]
-[[Vprašaš, kdo je tam]]</tw-passagedata><tw-passagedata pid="8" name="Poskusi odpreti ključavnico" tags="" position="">Poskušaš manipulirati s ključavnico, a brez pravega orodja ni možnosti, da bi jo odprl. Medtem ko se ukvarjaš z njo, zaslišiš tiho škripanje iz drugega kota sobe.
-
-[[Razišči izvor zvoka]]
-[[Nadaljuj delo na ključavnici]]</tw-passagedata><tw-passagedata pid="9" name="Nadaljuj s preiskovanjem sobe" tags="" position="">Nadaljuješ s preiskovanjem sobe in v kotu naletiš na nekaj mehkega. Zdi se, da je to kup slame, ki bi lahko služil kot ležišče.
+[[Pokličeš na pomoč]]</tw-passagedata><tw-passagedata pid="2" name="Nadaljuj s preiskovanjem sobe" tags="" position="">Nadaljuješ s preiskovanjem sobe in v kotu naletiš na nekaj mehkega. Zdi se, da je to kup slame, ki bi lahko služil kot ležišče.
 
 [[Preišči slamo]]
-[[Vrni se k vratom]]</tw-passagedata><tw-passagedata pid="10" name="Poskusi zlomiti zarjaveli člen" tags="" position="">Z vso močjo potegneš za zarjaveli člen. Po nekaj poskusih začutiš, kako popušča. Z zadnjim sunkom ga uspeš zlomiti, a pri tem povzročiš glasen zvok.
+[[Vrni se k vratom]]</tw-passagedata><tw-passagedata pid="3" name="Nadaljuješ s klicanjem" tags="" position="">"Prosim, pomagajte mi! Kje sem?" nadaljuješ s klicanjem. Koraki se pospešijo in kmalu zaslišiš, kako se nekdo ustavi pred vrati.
 
-[[Hitro poišči izhod]]
-[[Ostani pri miru in poslušaj]]</tw-passagedata><tw-passagedata pid="11" name="Opusti poskus in razmisli o drugih možnostih" tags="" position="">Odločiš se, da je bolje prihraniti energijo. Medtem ko razmišljaš o drugih možnostih, opaziš šibko svetlobo, ki prihaja skozi majhno razpoko v steni.
+[[Umolkneš in čakaš]]
+[[Vprašaš, kdo je tam]]</tw-passagedata><tw-passagedata pid="4" name="Opusti poskus in razmisli o drugih možnostih" tags="" position="">Odločiš se, da je bolje prihraniti energijo. Medtem ko razmišljaš o drugih možnostih, opaziš šibko svetlobo, ki prihaja skozi majhno razpoko v steni.
 
 [[Preišči razpoko]]
-[[Kliči skozi razpoko]]</tw-passagedata><tw-passagedata pid="12" name="Pripravi se na soočenje" tags="" position="">Napneš mišice in se pripraviš na karkoli že prihaja. Vrata se počasi odprejo in v sobo vstopi postava, osvetljena z baklo.
-
-[[Vprašaj, kdo je]]
-[[Poskusi napasti]]</tw-passagedata><tw-passagedata pid="13" name="Pretvarjaj se, da spiš" tags="" position="">Hitro se uleži na tla in se pretvarjaj, da spiš. Vrata se odprejo in slišiš, kako nekdo vstopi v sobo.
-
-[[Nadaljuj s pretvarjanjem]]
-[[Nenadoma "se zbudi"]]</tw-passagedata><tw-passagedata pid="14" name="Umolkneš in čakaš" tags="" position="">Prenehaš klicati in čakaš v napeti tišini. Slišiš, kako se ključ obrne v ključavnici in vrata se počasi odprejo.
-
-[[Ostani pri miru]]
-[[Poskusi steči mimo osebe]]</tw-passagedata><tw-passagedata pid="15" name="Vprašaš, kdo je tam" tags="" position="">"Kdo je tam?" vprašaš z drhtečim glasom. Za trenutek je tišina, nato pa zaslišiš grob glas: "Tiho bodi in vstani!"
-
-[[Ubogaš ukaz]]
-[[Zavrneš ubogati]]</tw-passagedata><tw-passagedata pid="16" name="Razišči izvor zvoka" tags="" position="">Previdno se premikaš proti izvoru škripanja. Ko se približaš, opaziš, da prihaja iz rahlo zrahljane opeke v steni.
-
-[[Poskusi odstraniti opeko]]
-[[Pokliči skozi režo]]</tw-passagedata><tw-passagedata pid="17" name="Preišči slamo" tags="" position="">Ko preiskaš kup slame, tvoji prsti naletijo na nekaj trdega. Izvlečeš majhen, zarjavel ključ.
-
-[[Poskusi ključ na svojih verigah]]
-[[Skrij ključ in nadaljuj iskanje]]</tw-passagedata><tw-passagedata pid="18" name="Preišči razpoko" tags="" position="">Ko pogledaš skozi razpoko, vidiš šibko svetlobo na koncu dolgega hodnika. Zdi se, da je to morda pot na svobodo.
-
-[[Poskusi razširiti razpoko]]
-[[Pokliči skozi razpoko]]</tw-passagedata><tw-passagedata pid="19" name="Ostani pri miru" tags="" position="">Ostaneš popolnoma pri miru, ko se vrata odprejo. V sobo vstopi visoka postava, oblečena v temno obleko.
+[[Kliči skozi razpoko]]</tw-passagedata><tw-passagedata pid="5" name="Ostani pri miru" tags="" position="">Ostaneš popolnoma pri miru, ko se vrata odprejo. V sobo vstopi visoka postava, oblečena v temno obleko.
 
 [[Opazuj v tišini]]
-[[Spregovori prvi]]</tw-passagedata><tw-passagedata pid="20" name="Ubogaš ukaz" tags="" position="">Počasi vstanem in se soočim z glasom. Pred seboj zagledam velikega moškega v črni obleki, ki v roki drži nekaj, kar izgleda kot starodaven pergament.
+[[Spregovori prvi]]</tw-passagedata><tw-passagedata pid="6" name="Pokličeš na pomoč" tags="" position="">"Halo! Je kdo tam?" tvoj glas odmeva po praznem prostoru. Za trenutek vlada tišina, nato pa zaslišiš oddaljene korake, ki se približujejo.
+
+[[Počakaš v tišini]]
+[[Nadaljuješ s klicanjem]]</tw-passagedata><tw-passagedata pid="7" name="Poskusi odpreti ključavnico" tags="" position="">Poskušaš manipulirati s ključavnico, a brez pravega orodja ni možnosti, da bi jo odprl. Medtem ko se ukvarjaš z njo, zaslišiš tiho škripanje iz drugega kota sobe.
+
+[[Razišči izvor zvoka]]
+[[Nadaljuj delo na ključavnici]]</tw-passagedata><tw-passagedata pid="8" name="Poskusi se osvoboditi verig" tags="" position="">Potegneš za verige, a so trdno pritrjene v steno. Medtem ko se boriš z njimi, opaziš, da je eden od členov nekoliko zarjavel.
+
+[[Poskusi zlomiti zarjaveli člen]]
+[[Opusti poskus in razmisli o drugih možnostih]]</tw-passagedata><tw-passagedata pid="9" name="Poskusi zlomiti zarjaveli člen" tags="" position="">Z vso močjo potegneš za zarjaveli člen. Po nekaj poskusih začutiš, kako popušča. Z zadnjim sunkom ga uspeš zlomiti, a pri tem povzročiš glasen zvok.
+
+[[Hitro poišči izhod]]
+[[Ostani pri miru in poslušaj]]</tw-passagedata><tw-passagedata pid="10" name="Poskusiš vstati" tags="" position="">Z naporom se dvigneš na noge. Ko se premikaš, zaslišiš žvenket verig. Šele zdaj opaziš, da so tvoji gležnji vklenjeni. Veriga je dovolj dolga, da ti omogoča nekaj gibanja po sobi.
+
+[[Preišči sobo]]
+[[Poskusi se osvoboditi verig]]</tw-passagedata><tw-passagedata pid="11" name="Počakaš v tišini" tags="" position="">Odločiš se, da boš počakal v tišini. Koraki se ustavijo pred vrati. Slišiš škripanje ključa v ključavnici.
+
+[[Pripravi se na soočenje]]
+[[Pretvarjaj se, da spiš]]</tw-passagedata><tw-passagedata pid="12" name="Preišči razpoko" tags="" position="">Ko pogledaš skozi razpoko, vidiš šibko svetlobo na koncu dolgega hodnika. Zdi se, da je to morda pot na svobodo.
+
+[[Poskusi razširiti razpoko]]
+[[Pokliči skozi razpoko]]</tw-passagedata><tw-passagedata pid="13" name="Preišči slamo" tags="" position="">Ko preiskaš kup slame, tvoji prsti naletijo na nekaj trdega. Izvlečeš majhen, zarjavel ključ.
+
+[[Poskusi ključ na svojih verigah]]
+[[Skrij ključ in nadaljuj iskanje]]</tw-passagedata><tw-passagedata pid="14" name="Preišči sobo" tags="" position="">Ko se premikaš po sobi, s prsti tipaš po stenah. Občutiš hladen kamen in tu pa tam vlažen mah. Nenadoma tvoji prsti naletijo na nekaj kovinskega - zdi se, da je to ključavnica.
+
+[[Poskusi odpreti ključavnico]]
+[[Nadaljuj s preiskovanjem sobe]]</tw-passagedata><tw-passagedata pid="15" name="Pretvarjaj se, da spiš" tags="" position="">Hitro se uleži na tla in se pretvarjaj, da spiš. Vrata se odprejo in slišiš, kako nekdo vstopi v sobo.
+
+[[Nadaljuj s pretvarjanjem]]
+[[Nenadoma "se zbudi"]]</tw-passagedata><tw-passagedata pid="16" name="Pripravi se na soočenje" tags="" position="">Napneš mišice in se pripraviš na karkoli že prihaja. Vrata se počasi odprejo in v sobo vstopi postava, osvetljena z baklo.
+
+[[Vprašaj, kdo je]]
+[[Poskusi napasti]]</tw-passagedata><tw-passagedata pid="17" name="Razišči izvor zvoka" tags="" position="">Previdno se premikaš proti izvoru škripanja. Ko se približaš, opaziš, da prihaja iz rahlo zrahljane opeke v steni.
+
+[[Poskusi odstraniti opeko]]
+[[Pokliči skozi režo]]</tw-passagedata><tw-passagedata pid="18" name="Ubogaš ukaz" tags="" position="">Počasi vstanem in se soočim z glasom. Pred seboj zagledam velikega moškega v črni obleki, ki v roki drži nekaj, kar izgleda kot starodaven pergament.
 
 [[Vprašaj o pergamentu]]
-[[Zahtevaj pojasnila o svoji situaciji]]</tw-passagedata></tw-storydata>
+[[Zahtevaj pojasnila o svoji situaciji]]</tw-passagedata><tw-passagedata pid="19" name="Umolkneš in čakaš" tags="" position="">Prenehaš klicati in čakaš v napeti tišini. Slišiš, kako se ključ obrne v ključavnici in vrata se počasi odprejo.
+
+[[Ostani pri miru]]
+[[Poskusi steči mimo osebe]]</tw-passagedata><tw-passagedata pid="20" name="Vprašaš, kdo je tam" tags="" position="">"Kdo je tam?" vprašaš z drhtečim glasom. Za trenutek je tišina, nato pa zaslišiš grob glas: "Tiho bodi in vstani!"
+
+[[Ubogaš ukaz]]
+[[Zavrneš ubogati]]</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _toConsumableArray(arr){if(Array.isArray(arr)){for(var i=0,arr2=Array(arr.length);i<arr.length;i++)arr2[i]=arr[i];return arr2}return Array.from(arr)}var _slicedToArray=function(){function sliceIterator(arr,i){var _arr=[],_n=!0,_d=!1,_e=void 0;try{for(var _s,_i=arr[Symbol.iterator]();!(_n=(_s=_i.next()).done)&&(_arr.push(_s.value),!i||_arr.length!==i);_n=!0);}catch(err){_d=!0,_e=err}finally{try{!_n&&_i["return"]&&_i["return"]()}finally{if(_d)throw _e}}return _arr}return function(arr,i){if(Array.isArray(arr))return arr;if(Symbol.iterator in Object(arr))return sliceIterator(arr,i);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(obj){return typeof obj}:function(obj){return obj&&"function"==typeof Symbol&&obj.constructor===Symbol?"symbol":typeof obj};!function(){/**
  * @license almond 0.3.1 Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.
