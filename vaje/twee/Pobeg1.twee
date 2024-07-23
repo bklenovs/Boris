@@ -1,0 +1,536 @@
+:: StoryTitle
+Pobeg1
+
+
+
+:: Hitro poišči izhod 
+Zdaj, ko si prost verig, hitro pregledaš sobo za možne izhode. Vrata so še vedno zaklenjena, a opziš majhno okno visoko na steni. Morda bi se lahko splazil skozenj? Vrneš se k vratom.
+
+
+[[Pokliči skozi odprtino]]
+
+
+
+:: Išči kakršnekoli možnosti
+Vztrajaš pri drgnjenju zarjavelega člena ob vlažen del stene. Proces je počasen, a po nekaj časa opaziš, da člen postaja vse šibkejši. Morda ti bo uspelo!
+
+[[Poskusi najti karkoli za pospešitev procesa]]
+[[Poskusi razširiti razpoko]]
+
+
+
+:: Kliči druga imena, ki se jih spomniš 
+Poskusiš se spomniti  imen in jih zakličeš: "Mark! Lisa! David!" Tvoj glas odmeva po prazni sobi. Nenadoma zaslišiš korake, ki se hitro približujejo. Nekdo je očitno slišal tvoje klice.
+
+[[Pripravi se na soočenje]]
+
+
+
+:: Konec 
+Čestitamo! Uspelo ti je rešiti uganko in pobegniti iz skrivnostne ječe. Vendar pa se zdi, da je to šele začetek veliko večje skrivnosti.
+
+Ali so bile to res le sanje? Kaj pomeni mehanizem na tvoji nočni omarici? In kaj predstavlja simbol na steni?
+
+Morda boš nekega dne odkril odgovore na ta vprašanja. Za zdaj pa se lahko oddahneš, saj si na varnem. Vsaj zaenkrat...
+
+[[Začni znova|Start]]
+[[Razmisli o dogodivščini]]
+
+
+:: Končaj zaporedje 
+Ko postaviš zadnji del na mesto, melodija doseže vrhunec in nato potihne. Zaslišiš glasen klik in vrata se počasi odprejo. Pred teboj se razkriva...
+
+[[Vstopi skozi odprta vrata]]
+
+
+:: Nadaljuj delo na ključavnici 
+Vztrajaš pri delu na ključavnici. Po nekaj minutah intenzivnega poskušanja zaslišiš tih klik. Je to znak, da si uspel, ali le zvok lomljenja dela ključavnice?
+
+[[Poskusi najti improviziran ključ]]
+
+
+
+:: Nadaljuj s preiskovanjem sobe 
+Nadaljuješ s preiskovanjem sobe in v kotu naletiš na nekaj mehkega. Zdi se, da je to kup slame, ki bi lahko služil kot ležišče. Pod slamo začutiš nekaj trdega.
+
+[[Preišči slamo]]
+[[Preišči trdi predmet pod slamo]]
+
+
+:: Nadaljuj s premikanjem delov 
+S vsakim pravilnim premikom se melodija spreminja, postaja bolj harmonična. Nenadoma prepoznaš zadnje tone uspanke. Še zadnji premik in...
+
+[[Končaj zaporedje]]
+
+
+:: Nadaljuješ s klicanjem 
+"Prosim, pomagajte mi! Kje sem?" nadaljuješ s klicanjem. Koraki se pospešijo in kmalu zaslišiš, kako se nekdo ustavi pred vrati. Slišiš šepetanje, kot da se več ljudi pogovarja.
+
+[[Umolkneš in čakaš]]
+[[Vprašaš, kdo je tam]]
+[[Zahtevaj, da te izpustijo]]
+
+
+:: Opusti klicanje in se osredotoči na okolico 
+Odločiš se, da je klicanje preveč tvegano. Namesto tega se osredotočiš na svojo okolico. Zdaj, ko so se tvoje oči privadile na temo, opaziš nekaj, česar prej nisi - na steni je vklesan nenavaden simbol.
+
+[[Preišči simbol]]
+
+
+
+:: Opusti poskus in razmisli o drugih možnostih 
+Odločiš se, da je bolje prihraniti energijo. Medtem ko razmišljaš o drugih možnostih, opaziš šibko svetlobo, ki prihaja skozi majhno razpoko v steni. Morda je to ključ do tvoje svobode.
+
+[[Preišči zidove]]
+[[Zagledaš sence]]
+[[Poskusi razširiti razpoko]]
+
+
+:: Opusti to metodo in poskusi nekaj drugega
+Odločiš se, da je ta metoda prepočasna in tvegana. Namesto tega se osredotočiš na druge možnosti pobega. Morda obstaja šibka točka v zidu ali skrita past v tleh?
+
+[[Preišči zidove]]
+
+
+
+:: Opustiš poskus in se osredotočiš na pobeg 
+Odločiš se, da je pomembneje najti pot ven. Pregledaš svoje žepe in ugotoviš, da so prazni. Karkoli si imel pri sebi, so ti vzeli. Zdaj moraš uporabiti, kar najdeš v sobi.
+
+[[Preišči sobo za uporabne predmete]]
+[[Poskusi najti šibko točko v zidovih]]
+[[Preizkusi trdnost verig]]
+
+
+:: Ostani popolnoma pri miru 
+Skrčiš se v kotu in ostaneš popolnoma pri miru. Vrata se odprejo in v sobo vstopi visoka postava. Oseba nosi baklo in počasi pregleduje sobo. Tvoje srce divje razbija, ko se bakla približuje tvojemu skrivališču.
+
+[[Pokličeš na pomoč]]
+
+
+:: Ostani pri miru in poslušaj 
+Ostaneš popolnoma pri miru in napeto poslušaš. Sprva je vse tiho, nato pa zaslišiš tihe korake, ki se približujejo tvoji sobi. Nekdo je očitno slišal hrup lomljenja verige.
+
+[[Pripravi se na boj]]
+
+
+
+:: Ostani pri oltarju 
+Kljub strahu ostaneš pri oltarju. Svetloba postaja vse močnejša, dokler te popolnoma ne obda. Za trenutek ne vidiš ničesar, le belo svetlobo.
+
+Ko svetloba končno pojenja, se znajdeš...
+
+[[Prebudi se]]
+
+
+:: Poglej bližje simbol 
+V središču simbola opaziš majhno vdolbino v obliki mehanizma, ki si ga našel. Brez oklevanja vzameš mehanizem in ga položiš v vdolbino.
+
+Takoj ko to storiš, se celoten prostor začne tresti. Sveče okrog oltarja se prižgejo z nenaravno močnim plamenom. Iz folija začne izhajati močna svetloba.
+
+[[Ostani pri oltarju]]
+
+
+:: Pokličeš ime osebe, ki se je spomniš 
+"Sarah!" zakličeš, saj se spomniš, da je bilo to ime, ki si ga slišal tik pred izgubo zavesti. Tvoj klic odmeva po sobi, a odgovora ni. Kdo je Sarah in kakšno vlogo ima v tvoji situaciji?
+
+[[Kliči druga imena, ki se jih spomniš]]
+[[Opusti klicanje in se osredotoči na okolico]]
+[[Nadaljuješ s klicanjem]]
+
+
+:: Pokličeš na pomoč 
+"Halo! Je kdo tam?" tvoj glas odmeva po praznem prostoru. Za trenutek vlada tišina, nato pa zaslišiš oddaljene korake, ki se približujejo. Srce ti začne hitreje biti. Je to rešitelj ali tvoj ugrabitelj?
+
+[[Počakaš v tišini]]
+[[Nadaljuješ s klicanjem]]
+
+
+
+:: Pokličeš v smeri glasov 
+"Hej! Lahko me kdo sliši?" zakličeš v smeri, od koder si slišal glasove. Za trenutek zavlada tišina, nato pa zaslišiš hitre korake, ki se približujejo tvoji sobi. Je to dobro ali slabo?
+
+[[Pripravi se na soočenje]]
+
+
+
+:: Pokliči skozi odprtino 
+"Halo! Je kdo tam?" šepetaš skozi odprtino. Za trenutek je tišina, nato pa zaslišiš tih odgovor: "Kdo si? Kako si prišel sem?" Glas zveni prestrašeno, a hkrati radovedno.
+
+[[Poslušaj zvoke iz odprtine]]
+
+
+:: Poskusi dešifrirati sporočilo 
+Ko podrobneje pregledaš sporočilo, opaziš, da so nekateri simboli podobni tistim, ki si jih videl v trgovini z začimbami. Spomniš se, da je lastnik imel knjigo s podobnimi znaki. Ali je to povezano s tvojim ujetništvom?
+
+[[Vzemi pergament]]
+
+
+:: Poskusi najti improviziran ključ 
+Ozreš se po sobi in iščeš karkoli, kar bi lahko uporabil kot improviziran ključ. Tvoj pogled pade na tanek kovinski trak, ki štrli iz stene. Morda bi ga lahko uporabil?
+
+[[Preišči trdi predmet pod slamo]]
+
+
+
+:: Poskusi najti karkoli za pospešitev procesa 
+Razgledaš se po sobi in iščeš karkoli, kar bi lahko bilo uporabno. V kotu opaziš majhno razpoko. Morda je to to, kar potrebuješ?
+
+[[Išči kakršnekoli možnosti]]
+[[Preizkusi trdnost verig]]
+[[Poskusi najti šibko točko v zidovih]]
+[[Preišči sobo za uporabne predmete]]
+
+
+:: Poskusi najti šibko točko v zidovih 
+Previdno tapkaš po zidovih in iščeš kakršnokoli šibko točko. Večina zidu je trdna, a na enem mestu zaslišiš votel zvok. Zdi se, da je tam kamen morda zrahljan.
+
+[[Išči kakršnekoli možnosti]]
+
+
+:: Poskusi obrniti ključavnico v simbolu 
+Ko poskusiš obrniti ključavnico, zaslišiš tih klik. Nenadoma se del stene poleg simbola premakne, razkrivaje majhno skrito nišo. V niši opaziš star pergament in majhen, nenavaden predmet.
+
+[[Vzemi pergament]]
+[[Vzemi nenavaden predmet]]
+
+
+
+:: Poskusi odpreti ključavnico 
+Poskušaš manipulirati s ključavnico, a brez pravega orodja ni možnosti, da bi jo odprl. Medtem ko se ukvarjaš z njo, zaslišiš tiho škripanje iz drugega kota sobe. Tvoja radovednost je vzbujena, a hkrati čutiš strah.
+
+[[Nadaljuj delo na ključavnici]]
+[[Poskusi najti improviziran ključ]]
+
+
+:: Poskusi pogledati, kdo je vstopil 
+Previdno pokukaš iz svojega skrivališča. V sobo je vstopila visoka postava, oblečena v temno ogrinjalo. V roki drži nekaj, kar izgleda kot star pergament. Oseba se ozira po sobi, očitno te išče.
+
+[[Poskusiš vstati]]
+
+
+:: Poskusi razširiti odprtino 
+Z rokami začneš kopati okoli odprtine, v upanju da jo boš lahko razširil. Zemlja je vlažna in se drobi pod tvojimi prsti. Po nekaj minutah uspeš odprtino nekoliko povečati.
+
+[[Poslušaj zvoke iz odprtine]]
+
+
+:: Poskusi razširiti razpoko 
+Z vsemi močmi poskušaš razširiti razpoko. Kamni so stari in krušljivi, a vseeno trdno na mestu. Po nekaj minutah napornega dela uspeš razpoko nekoliko povečati. Zagledaš sence v hodniku.
+
+[[Zagledaš sence]]
+
+
+:: Poskusi rešiti uganko mehanizma 
+Ko začneš premikati dele mehanizma, zaslišiš tiho melodijo. Z vsakim pravilnim premikom se melodija spremeni. Spomniš se pesmi, ki si jo slišal pred ugrabitvijo. Ali je to ključ do rešitve?
+
+[[Poskusi uskladiti premike s spominom na pesem]]
+
+
+
+:: Poskusi se osvoboditi verig 
+Potegneš za verige, a so trdno pritrjene v steno. Medtem ko se boriš z njimi, opaziš, da je eden od členov nekoliko zarjavel. Ob podrobnejšem pregledu opaziš, da je zarjavelo mesto precej obsežno.
+
+[[Poskusi zlomiti zarjaveli člen]]
+[[Opusti poskus in razmisli o drugih možnostih]]
+[[Poskusi uporabiti vlago v sobi za pospešitev rjavenja]]
+
+
+:: Poskusi uporabiti vlago v sobi za pospešitev rjavenja 
+Domisliš se, da bi lahko vlaga v sobi pospešila rjavenje verig. Začneš drgniti zarjaveli člen ob vlažen del stene in upaš, da bo to oslabilo verigo. Proces je počasen, a čutiš, da napreduje.
+
+[[Išči kakršnekoli možnosti]]
+[[Poskusi najti karkoli za pospešitev procesa]]
+[[Opusti to metodo in poskusi nekaj drugega]]
+
+
+:: Poskusi uskladiti premike s spominom na pesem 
+Zapreš oči in se osredotočiš na melodijo, ki odmeva iz mehanizma. Počasi začneš prepoznavati vzorec - je podoben stari uspavanki, ki ti jo je pela babica. Z drhtečimi prsti začneš premikati dele mehanizma v ritmu pesmi.
+
+[[Nadaljuj s premikanjem delov]]
+
+
+
+:: Poskusi zlomiti zarjaveli člen 
+Z vso močjo potegneš za zarjaveli člen. Po nekaj poskusih začutiš, kako popušča. Z zadnjim sunkom ga uspeš zlomiti, a pri tem povzročiš glasen zvok. Tvoje srce divje razbija, ko poslušaš, ali je kdo slišal hrup.
+
+[[Hitro poišči izhod]]
+[[Ostani pri miru in poslušaj]]
+[[Pripravi se na boj]]
+
+
+:: Poskusiš se skriti 
+Hitro se ozreš po sobi in iščeš kakršnokoli skrivališče. Opaziš temen kot, kamor bi se morda lahko stisnil. Verige otežujejo tvoje gibanje, a uspeš doseči kot tik preden se vrata odprejo.
+
+[[Ostani popolnoma pri miru]]
+[[Pripravi se na napad iz skrivališča]]
+[[Poskusi pogledati, kdo je vstopil]]
+
+
+:: Poskusiš se spomniti, kaj se je zgodilo 
+Zapreš oči in se poskušaš osredotočiti. Počasi se ti vračajo fragmenti spominov. Spomniš se, da si bil na poti domov iz službe. Nekdo te je poklical po imenu, obrnil si se in nato... tema. Kaj se je zgodilo vmes?
+
+[[Opustiš poskus in se osredotočiš na pobeg]]
+[[Pokličeš ime osebe, ki se je spomniš]]
+
+
+:: Poskusiš vstati 
+Z naporom se dvigneš na noge. Ko se premikaš, zaslišiš žvenket verig. Šele zdaj opaziš, da so tvoji gležnji vklenjeni. Veriga je dovolj dolga, da ti omogoča nekaj gibanja po sobi. Začutiš vrtoglavico in se opotekaš, a uspeš ohraniti ravnotežje.
+
+[[Preišči sobo]]
+[[Poskusi se osvoboditi verig]]
+[[Prisluhni za zvoke zunaj sobe]]
+[[Poskusi se osvoboditi verig]]
+
+
+:: Poslušaj zvoke iz odprtine 
+Prisloniš uho k odprtini in pozorno poslušaš. Zaslišiš oddaljeno kapljanje vode in... ali je to dihanje? Zdi se, da nisi edini ujetnik tukaj.
+
+[[Pokliči skozi odprtino]]
+
+
+
+:: Počakaš v tišini 
+Odločiš se, da boš počakal v tišini. Koraki se ustavijo pred vrati. Slišiš škripanje ključa v ključavnici. Tvoje srce divje razbija, ko se vrata počasi odpirajo.
+
+[[Pripravi se na soočenje]]
+[[Pretvarjaj se, da spiš]]
+[[Skoči proti vratom]]
+[[Pripravi se na soočenje]]
+
+
+:: Prebudi se 
+...v svoji postelji. Zbudiš se ves poten in z razbijajočim srcem. Bil je le sanje? Ko se ozreš po sobi, opaziš na nočni omarici majhen, znan predmet - mehanizem iz sanj.
+
+Na steni tvoje spalnice pa je narisan simbol, identičen tistemu iz sanj. Kako je to mogoče?
+
+[[Konec]]
+
+
+:: Preizkusi trdnost verig 
+Pazljivo pregledaš verige, ki te vežejo. Opazišš, da je ena od spojk nekoliko ohlapnejša od ostalih. Morda bi jo lahko s pravim orodjem ali dovolj vztrajnosti razrahljal še bolj.
+
+[[Išči kakršnekoli možnosti]]
+
+
+:: Preišči mehanizem na novih vratih 
+Mehanizem na vratih je podoben simbolu na steni, le da je ta tridimenzionalen. Opazišš, da se nekateri deli lahko premikajo. Zdi se, da bi moral dele postaviti v pravilno zaporedje, da bi odklenil vrata.
+
+[[Poskusi rešiti uganko mehanizma]]
+
+
+
+:: Preišči odprtino blizu tal 
+Sklanjaš se k odprtini in poskušaš pogledati skoznjo. Preozka je, da bi se splazil skozi, a morda bi lahko nekaj potisnil skozi. Zavohaš svež zrak, ki prihaja iz odprtine.
+
+[[Pokliči skozi odprtino]]
+[[Poskusi razširiti odprtino]]
+[[Poslušaj zvoke iz odprtine]]
+
+
+:: Preišči simbol 
+Ko se približaš simbolu na steni, opaziš, da gre za zapleteno risbo, sestavljeno iz prepletenih krivulj in ostrih kotov. V središču simbola je nekaj, kar izgleda kot ključavnica. Ko se je dotakneš, začutiš, kako se pod tvojimi prsti premika.
+
+[[Poskusi obrniti ključavnico v simbolu]]
+[[Vzemi pergament]]
+
+
+:: Preišči slamo 
+Ko preiskaš kup slame, tvoji prsti naletijo na nekaj trdega. Izvlečeš majhen, zarjavel ključ. Srce ti začne hitreje biti. Je to ključ do tvojih verig ali morda do vrat?
+
+[[Preišči trdi predmet pod slamo]]
+
+
+:: Preišči sobo 
+Ko se premikaš po sobi, s prsti tipaš po stenah. Občutiš hladen kamen in tu pa tam vlažen mah. Nenadoma tvoji prsti naletijo na nekaj kovinskega - zdi se, da je to ključavnica. Ob nadaljnjem raziskovanju naletiš na majhno odprtino blizu tal, morda za odvajanje vode.
+
+[[Poskusi odpreti ključavnico]]
+[[Nadaljuj s preiskovanjem sobe]]
+[[Preišči odprtino blizu tal]]
+
+
+:: Preišči sobo za uporabne predmete 
+Natančno pregledaš vsak centimeter sobe, ki ga lahko dosežeš. V kotu najdeš zarjavel žebelj, med kamni na tleh pa majhen, oster kamen. Ob steni opaziš tudi košček oguljene vrvi.
+
+[[Išči kakršnekoli možnosti]]
+
+
+:: Preišči trdi predmet pod slamo 
+Previdno odstraniš slamo in pod njo najdeš majhno leseno škatlo. Ko jo dvigneš, zaslišiš rožljanje znotraj. Kaj bi lahko bilo v njej in kako ti lahko pomaga pri pobegu?
+
+[[Poskusi najti improviziran ključ]]
+
+
+:: Preišči zidove 
+Ko pogledaš skozi razpoko, vidiš šibko svetlobo na koncu dolgega hodnika. Zdi se, da je to morda pot na svobodo. Vendar opaziš tudi sence, ki se premikajo - nekdo je v hodniku.
+
+[[Poskusi razširiti razpoko]]
+
+
+
+:: Pretvarjaj se, da spiš 
+Hitro se uleži na tla in se pretvarjaj, da spiš. Vrata se odprejo in slišiš, kako nekdo vstopi v sobo. Čutiš, kako se oseba sklanja nad teboj in te opazuje. Tvoje srce divje razbija, a poskušaš ohraniti mirno dihanje.
+
+[[Poskusiš se skriti]]
+
+
+:: Približaj se oltarju 
+Ko se približaš oltarju, opaziš, da so simboli v foliu pravzaprav napotki za nek obred. Ob robu strani je narisan simbol, ki je identičen tistemu na steni v prvi sobi. V središču simbola pa...
+
+[[Poglej bližje simbol]]
+
+
+:: Pripravi se na boj 
+Odločiš se, da se boš boril za svojo svobodo. Poiščeš kos zlomljene verige, ki bi ga lahko uporabil kot orožje. Ravno ko ga zgrabiš, se vrata začnejo odpirati.
+
+[[Hitro poišči izhod]]
+
+
+
+:: Pripravi se na napad iz skrivališča 
+Napneš mišice in se pripraviš na skok. Ko se postava približa tvojemu skrivališču, globoko vdihneš in se pripraviš na akcijo. Adrenalina je veliko, a veš, da imaš samo eno priložnost.
+
+[[Pokličeš na pomoč]]
+
+
+:: Pripravi se na soočenje 
+Napneš mišice in se pripraviš na karkoli že prihaja. Vrata se počasi odprejo in v sobo vstopi postava, osvetljena z baklo. Ko se tvoje oči privadijo na svetlobo, opaziš, da je oseba oblečena v nenavadno ogrinjalo z mističnimi simboli.
+
+[[Nadaljuješ s klicanjem]]
+
+
+
+:: Prisluhni za zvoke zunaj sobe 
+Prisluškuješ z napetimi ušesi. Sprva slišiš le svoje dihanje in bitje srca. Nato zaslišiš oddaljeno kapljanje vode in rahlo brnenje, morda od nekakšnega stroja. V daljavi slišiš tudi nerazločne glasove.
+
+[[Pokličeš v smeri glasov]]
+
+
+:: Razmisli o dogodivščini 
+Ko razmišljaš o svoji neverjetni izkušnji, se začneš spraševati o povezavah med elementi zgodbe:
+
+1. Vonj cimeta iz trgovine z začimbami
+2. Stara uspavanka tvoje babice
+3. Skrivnostni simbol, ki se pojavlja povsod
+4. Mehanizem, ki je zdaj na tvoji nočni omarici
+
+Je možno, da je vse to del nečesa večjega? Morda je čas, da začneš raziskovati te povezave in odkriješ, kaj se v resnici dogaja.
+
+
+
+
+:: Skoči proti vratom 
+V trenutku, ko se vrata začnejo odpirati, zbereš vso svojo moč in skočiš proti njim. Verige te zadržijo, a uspeš doseči vrata. Pred seboj zagledaš presenečen obraz stražarja, ki ni pričakoval tvojega napada.
+
+[[Pripravi se na soočenje]]
+
+
+
+:: Start 
+Prebudiš se v temni sobi. Tvoje oči se počasi privajajo na temo, a še vedno ne moreš jasno videti svoje okolice. Čutiš hladen kamnit tlak pod seboj in vohaš vlago v zraku. V glavi ti odzvanja, kot da si dobil udarec. Poskušaš se spomniti, kako si prišel sem, a tvoji spomini so megleni. Kaj boš storil?
+
+[[Poskusiš vstati]]
+[[Pokličeš na pomoč]]
+[[Poskusiš se spomniti, kaj se je zgodilo]]
+
+
+:: Umolkneš in čakaš 
+Prenehaš klicati in čakaš v napeti tišini. Slišiš, kako se ključ obrne v ključavnici in vrata se počasi odprejo. V sobo vstopita dve osebi, obe oblečeni v temna ogrinjala. Eden nosi baklo, drugi pa star pergament.
+
+[[Poskusiš se skriti]]
+
+
+:: Uporabi mehanizem na simbolu na steni 
+Ko približaš mehanizem simbolu na steni, začutiš, kako začne vibrirati. Nenadoma se njegovi premični deli začnejo premikati sami od sebe, prilagajajoč se oblikam v simbolu. Zaslišiš serijo klikov in del stene se začne premikati.
+
+[[Vzemi nenavaden predmet]]
+
+
+
+:: Vprašaš, kdo je tam 
+"Kdo je tam?" vprašaš z drhtečim glasom. Za trenutek je tišina, nato pa zaslišiš grob glas: "Tiho bodi in vstani!" Ton glasu ne dopušča ugovorov, a hkrati v njem zaznaš neko nenavadno vznemirjenost.
+
+
+[[Pripravi se na soočenje]]
+
+
+:: Vstopi skozi odprta vrata 
+Previdno vstopiš skozi vrata in se znajdeš v veliki okrogli sobi. V središču sobe stoji velik kamnit oltar, obkrožen s svečami. Na oltarju leži odprt star folio, popisan z istimi simboli kot pergament, ki si ga našel.
+
+[[Približaj se oltarju]]
+
+
+
+:: Vzemi nenavaden predmet 
+Nenavaden predmet se izkaže za majhen, zapleten mehanizem. Izgleda kot nekakšen ključ, a ima več premičnih delov. Ko ga premikaš v rokah, zaslišiš tiho tiktakanje iz njegove notranjosti.
+
+[[Uporabi mehanizem na simbolu na steni]]
+
+
+:: Vzemi pergament 
+Ko vzameš pergament, opaziš, da je na njem napisano sporočilo v nekem čudnem jeziku. Ob robu pergamenta je narisan simbol, podoben tistemu na steni, le da je ta nekoliko drugačen.
+
+[[Poskusi dešifrirati sporočilo]]
+
+
+
+:: Zagledaš sence 
+"Hej! Je kdo tam?" šepetaš skozi razpoko. Sence v hodniku se nenadoma ustavijo. Zaslišiš tih, prestrašen glas: "Kdo je to? Si tudi ti ujetnik?"
+
+[[Pripravi se na boj]]
+
+
+
+:: Zahtevaj, da te izpustijo 
+"Zahtevam, da me takoj izpustite!" zakličeš z vso samozavestjo, ki jo lahko zbereš. Za trenutek vlada tišina, nato pa zaslišiš smeh. "Oh, še ne veš, kako pomemben si," odgovori glas izza vrat.
+
+[[Pripravi se na soočenje]]
+
+
+:: StoryScript [script]
+$("body").append('<div class="subtitle" style="color:grey">V znanju je moč</div>');
+
+  $("body").append('<div class="subtitle" style="color:grey">@Boris</div>');
+
+
+:: StoryStylesheet [stylesheet]
+tw-story {
+  background-image: linear-gradient(-135deg, beige, khaki);
+  background-image: -webkit-linear-gradient(-45deg, beige, khaki);
+  background-color: beige;
+  color: grey;
+  width: 90%;
+  margin:auto;
+  margin-bottom: 1%;
+  padding: 2em;
+  box-shadow: inset 0 0 2em olive;
+}
+
+tw-passage {
+  width: 85%; 
+  padding: 1em; 
+  margin: auto;
+  margin-bottom: 40%;
+  border: solid olive 0.01em; 
+  border-radius: 0.1em; 
+  background-color: khaki; 
+  box-shadow: olive 0.1em 0.1em 0;
+}
+
+tw-sidebar {
+  border: solid olive 0.01em;
+  padding-bottom: 0.1m;  
+  background-color: beige;
+  background-position: right; 
+  background-size: cover; 
+}
+
+tw-icon {
+  border: solid olive 0.01em;
+  color: grey;
+  opacity: 0.75;
+  font-size: 1.75em;
+  padding-bottom: 0.1em;  
+  background-color: khaki; 
+  background-position: center; 
+  background-size: cover; 
+}

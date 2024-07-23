@@ -1,0 +1,704 @@
+:: StoryTitle
+Osnutki
+
+
+:: StoryData
+{
+  "ifid": "3E6ADA3C-6DA2-48C6-A038-D2610AEA4670",
+  "format": "Harlowe",
+  "format-version": "1.2.4",
+  "start": "Osnutki",
+  "zoom": 0.6
+}
+
+
+:: Audio, video {"position":"100,400","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<body>
+
+<hr>
+<audio autoplay>
+<source src="https://my.mixtape.moe/lwbuuh.mp3" />
+</audio>
+
+<hr>
+<audio controls>
+  <source src="https://my.mixtape.moe/xovdac.ogg" type="audio/ogg">
+  <source src="http://www.ohiofi.com/sundown/track2.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<hr>>
+<video width="320" height="240" autoplay>
+  <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+  <source src="https://www.w3schools.com/html/movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+<hr>
+<video width="320" height="240" controls>
+  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+<hr>
+
+</body>
+</html>
+
+
+
+
+:: Galerija slik {"position":"700,400","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body tw-story {
+    background: linear-gradient(to bottom right, white, green);
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_fjords.jpg">
+    <img src="https://www.w3schools.com/css/img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_forest.jpg">
+    <img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_lights.jpg">
+    <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.w3schools.com/css/img_mountains.jpg">
+    <img src="https://www.w3schools.com/css/img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+</body>
+</html>
+
+
+:: Gumb 1 {"position":"900,200","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>What Can JavaScript Do?</h1>
+
+<h3 id="demo">JavaScript can change HTML content.</h3>
+
+<h5 id="demo2">JavaScript can change the style of an HTML element.</h5>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+
+
+<button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">Click Me!</button>
+
+</body>
+</html>
+
+
+
+:: Gumb 2 {"position":"900,400","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attributes.</p>
+
+<p>In this case JavaScript changes the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn off the light</button>
+
+</body>
+</html>
+
+
+
+:: Gumb 3 {"position":"900,600","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function myFunction() {
+    document.getElementById("demo1").innerHTML = "Hello Dolly!";
+    document.getElementById("demo2").innerHTML = "How are you?";
+}
+</script>
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+</body>
+</html>
+
+
+:: Gumb 4 {"position":"1100,200","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+        $("button").click(function(){
+        $("h1").toggle();
+    });
+</script>
+</head>
+<body>
+<button>Toggle</button>
+<h1>This is h1.</h1>  
+</body>
+</html>
+
+
+:: Gumb 5 {"position":"1101,398","size":"100,100"}
+<!DOCTYPE html>
+<html> 
+<head> 
+<script> 
+function myfunction(txt) { 
+    document.getElementById("demo").innerHTML = txt
+} 
+</script> 
+</head> 
+
+<body> 
+<p>
+When you click on one of the buttons, a function will be called. The function will display the argument that is passed to it.
+</p>
+
+<form> 
+<input type="button" onclick="myfunction('Good Morning!')" value="In the Morning"> 
+<input type="button" onclick="myfunction('Good Evening!')" value="In the Evening"> 
+</form> 
+
+<p id="demo"></p>
+
+</body> 
+</html> 
+
+
+:: Gumb 6 {"position":"1101,600","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<bodY>
+
+First Name: <input type="text" id="fname" value="John">
+<button onclick="checkName()">Check Name</button>
+<p id="demo"></p>
+
+<script>
+function checkName() {
+  var firstName = document.getElementById("fname").value;
+  var result = (firstName === "John") ? "Hello John!":"You're not John!";
+  document.getElementById("demo").innerHTML = result;
+}
+</script>  
+</body>
+</html>
+
+
+:: Oblikovanje teksta 1 {"position":"300,200","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<head>My First HTML</head>
+<hr>
+<body>
+HTML Text Formatting
+<hr>
+<h1>This is h1</h1>
+<h1>My <span style="color:red">Important</span> Heading</h1>
+<h2>HTML <small>Small</small> Formatting</h2>
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+<hr>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+<hr>
+<p>This text is normal.</p>
+<p><b>This text is bold.</b></p>
+<p><strong>This text is strong.</strong></p>
+<p><i>This text is italic.</i></p>
+<p><em>This text is emphasized.</em></p>
+<p>My favorite color is <del>blue</del> red.</p>
+<p>My favorite <ins>color</ins> is red.</p>
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+<p>This is <sub>subscripted</sub> text.</p>
+<p>This is <sup>superscripted</sup> text.</p>
+<hr>
+<p style="color:red">This is a paragraph.</p>
+<p style="font-family:courier">This is a paragraph.</p>
+<p style="text-align:center">This is a paragraph.</p>
+<p style="font-size:50px">This is a paragraph.</p>
+<p>This is<br>a paragraph<br>with line breaks</p>
+<hr>
+<pre>
+   My Bonnie lies over the ocean.
+
+   My Bonnie lies over the sea.
+
+   My Bonnie lies over the ocean.
+   
+   Oh, bring back my Bonnie to me.
+</pre>
+</body>
+</html>
+
+
+:: Oblikovanje teksta 2 {"position":"300,400","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body tw-story{ background-image: url("https://www.w3schools.com/css/paper.gif"); }
+h1 { color: red; background-color: orange; height: 150px; width: 350px; }
+h2 { text-align: center; }
+p { outline-style: solid; outline-width: 4px; outline-color: green; }
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<h2>This is a smaller heading</h2>
+<p>This is a paragraph.</p>
+<p>This is <strong>another</strong> paragraph.</p>
+
+</body>
+</html>
+
+
+:: Oblikovanje teksta 3 {"position":"300,600","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1::before{
+    content: url(https://www.w3schools.com/css/smiley.gif);
+}
+h2::after{
+    content: url(https://www.w3schools.com/css/smiley.gif);
+}    
+h3.hover {
+    background-color: lightblue;
+}      
+p::first-letter {
+    color: red;
+    font-size: xx-large;
+}
+p::first-line {
+    color: blue;
+}  
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>  
+<h2>This is another Heading</h2>
+<h3 class="hover">This is last Heading</h3>  
+<p>This is a paragraph.</p>  
+<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'</p>
+
+</body>
+</html
+
+
+
+:: Oblikovanje teksta 4 {"position":"500,200","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a { color: green; }
+div { 
+    border: 10px solid black;
+    padding: 35px;
+    background: url(https://www.w3schools.com/css/img_flwr.gif);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+body tw-story { font-size: 20px; }
+h1 { font-size: 50px; }
+h2.hover { background-color: lightblue; font-size: 20px; }    
+p { font-style: italic; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<div>
+<h1>This is a Heading</h1>
+<h2 class="hover">This is another Heading</h2>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+</div>
+<p><a href="https://www.w3schools.com">W3Schools.com</a></p>
+</body>
+</html>
+
+
+
+:: Obrazci {"position":"500,600","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+</style>
+</head>
+<body>
+
+<p><strong>Tip:</strong> Use the resize property to prevent textareas from being resized (disable the "grabber" in the bottom right corner):</p>
+
+<form>
+  <textarea>Some text...</textarea>
+</form>
+
+
+<style> 
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+
+<p>Padded text fields:</p>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname">
+</form>
+
+</body>
+<hr>
+<head>
+<style>
+table {
+    width: 100%;
+}
+table, td, th {
+    border: 1px solid black;
+}
+th {
+    padding: 15px;
+}
+td {
+    padding: 15px;
+}  
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+:: Osnutki {"position":"602,5.666666666666667","size":"100,100"}
+<a href="../index.html">Maklen</a>
+<h3 style="text-align:center; color:#808000")>Utrinki</h3> 
+
+
+[[Slike, links]]
+[[Audio, video]]
+[[Oblikovanje teksta 1]]
+[[Oblikovanje teksta 2]]
+[[Oblikovanje teksta 3]]
+[[Oblikovanje teksta 4]]
+[[Robovi meje obrobe]]
+[[Obrazci]]
+[[Galerija slik]]
+[[Gumb 1]]
+[[Gumb 2]]
+[[Gumb 3]]
+[[Gumb 4]]
+[[Gumb 5]]
+[[Gumb 6]]
+[[Video JS]]
+
+
+:: Robovi meje obrobe {"position":"500,400","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body tw-story { background-image: url("https://www.w3schools.com/css/img_tree.png"); background-repeat: no-repeat; background-position: top right; }
+
+p { border: 10px solid green; }
+h1 { background-color: lightblue; margin: 50px; margin-left: 20px; }
+h2 { background-color: orange; width: 200px; }
+h3 { background-color: lightblue; padding: 50px; padding-top: 30px; }
+
+div { background-color: lightblue; width: 200px; padding: 25px; border: 25px solid navy; margin: 25px; } 
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<h2>This is second Heading</h2>
+<h3>This is another Heading</h3>  
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+</body>
+</html
+
+
+:: Slike, links {"position":"100,200","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<body>
+<img src="https://www.w3schools.com/html/img_the_scream.jpg" 
+     alt="The Scream" width="148" height="148">
+<hr>
+<a href="https://www.w3schools.com">Visit our HTML tutorial.</a>
+<a href="https://musiclab.chromeexperiments.com/Song-Maker/song/5923087660875776">Visit audio.</a>
+<a href="https://www.w3schools.com"><img src="https://www.w3schools.com/html/smiley.gif"></a>
+<a href="https://musiclab.chromeexperiments.com/Song-Maker/song/5923087660875776"><img src="https://www.w3schools.com/html/smiley.gif"></a>
+<hr>
+<p>
+Video courtesy of 
+<a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+</p>
+<hr>
+<iframe src="https://onedrive.live.com/embed?cid=AE2913C6896BF71E&resid=AE2913C6896BF71E%2111808&authkey=AM8aIxzk9i7WmpY" width="165" height="128" frameborder="0" scrolling="no"></iframe>
+<hr>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<hr>
+<p id="pozdrav"></p>
+<script>
+document.getElementById("pozdrav").innerHTML = "Hello JavaScript!";
+</script>
+</body>
+</html>
+
+
+
+
+:: Video JS {"position":"100,600","size":"100,100"}
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="420">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML5 video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+<p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+</body> 
+</html>
+
+
+:: StoryScript [script]
+$("body").append('<div class="title">Maklen</div>');
+
+$("body").append('<div class="subtitle">@Boris</div>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: StoryStylesheet [stylesheet]
+@import 'https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Ranchers';
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+tw-story {	
+  color: darkgreen;
+  text-shadow: 1px 1px lightgreen; 
+  font-size: 20px;
+  font-family: "Press Start 2P","Helvetica","Arial",sans-serif;
+  width: 70%;
+}
+
+tw-passage {
+  border: 5px groove gray;
+  border-radius: 25px; 
+  background: rgba(255,255,255,0.7); 
+  padding: 25px;
+}
+
+tw-link {
+  color:darkblue;
+  transition: color .5s ease-in-out;
+}
+
+tw-link:hover {
+  color: orange;
+}
+
+body { 
+  background: lightblue;
+  background: -webkit-linear-gradient(lightblue, blue);
+  background: -o-linear-gradient(lightblue, blue);
+  background: -moz-linear-gradient(lightblue, blue);
+  background: linear-gradient(lightblue, blue);
+  background-image: url("http://www.ohiofi.com/img/mars.jpg");
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
