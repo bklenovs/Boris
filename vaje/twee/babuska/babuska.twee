@@ -2,16 +2,6 @@
 Babuška
 
 
-:: StoryData
-{
-  "ifid": "8f72d258-92d0-47d3-8dcf-960720ffac31",
-  "format": "Harlowe",
-  "format-version": "2.1.0",
-  "start": "Babuška",
-  "zoom": 0.6
-}
-
-
 :: Babuška {"position":"100,25","size":"100,100"}
 <a href="https://bklenovs.github.io/boris/maklen/zgodboris"><p align="left">ZgodBoRis</p></a>
 <h2 style="text-align:center; color:grey">Babuška</h2>
