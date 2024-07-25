@@ -11,16 +11,17 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Pobeg" startnode="1" creator="Twee2" creator-version="0.5.0" ifid="495e1089-77b3-4190-8ff9-3321cdbe491f" format="Harlowe" options=""><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
-  background-image: linear-gradient(-135deg, beige, khaki);
-  background-image: -webkit-linear-gradient(-45deg, beige, khaki);
-  background-color: beige;
-  color: grey;
+<tw-storydata name="Pobeg" startnode="1" creator="Twee2" creator-version="0.5.0" ifid="d46c1e27-3faf-401f-921e-31cc7b93c695" format="Harlowe" options=""><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
+  background-image: linear-gradient(-135deg, #1a1a1a, #2c2c2c);
+  background-image: -webkit-linear-gradient(-45deg, #1a1a1a, #2c2c2c);
+  background-color: #1a1a1a;
+  color: #a0a0a0;
   width: 90%;
-  margin:auto;
+  margin: auto;
   margin-bottom: 1%;
   padding: 2em;
-  box-shadow: inset 0 0 2em olive;
+  box-shadow: inset 0 0 2em #000000;
+  font-family: 'Courier New', monospace;
 }
 
 tw-passage {
@@ -28,94 +29,257 @@ tw-passage {
   padding: 1em; 
   margin: auto;
   margin-bottom: 40%;
-  border: solid olive 0.01em; 
+  border: solid #4a0000 0.01em; 
   border-radius: 0.1em; 
-  background-color: khaki; 
-  box-shadow: olive 0.1em 0.1em 0;
+  background-color: #2c2c2c; 
+  box-shadow: #4a0000 0.1em 0.1em 0.5em;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+tw-link {
+  color: #8b0000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+tw-link:hover {
+  color: #ff0000;
+  text-shadow: 0 0 10px #ff0000;
 }
 
 tw-sidebar {
-  border: solid olive 0.01em;
-  padding-bottom: 0.1m;  
-  background-color: beige;
+  border: solid #4a0000 0.01em;
+  padding-bottom: 0.1em;  
+  background-color: #1a1a1a;
   background-position: right; 
   background-size: cover; 
 }
 
 tw-icon {
-  border: solid olive 0.01em;
-  color: grey;
+  border: solid #4a0000 0.01em;
+  color: #a0a0a0;
   opacity: 0.75;
   font-size: 1.75em;
   padding-bottom: 0.1em;  
-  background-color: khaki; 
+  background-color: #2c2c2c; 
   background-position: center; 
   background-size: cover; 
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">$("body").append('<div class="subtitle" style="color:grey">V znanju je moč</div>');
 
-  $("body").append('<div class="subtitle" style="color:grey">@Boris</div>');
-</script><tw-passagedata pid="1" name="Start" tags="" position="">Prebudiš se v temni sobi. Tvoje oči se počasi privajajo na temo, a še vedno ne moreš jasno videti svoje okolice. Čutiš hladen kamnit tlak pod seboj in vohaš vlago v zraku. Kaj boš storil?
+.subtitle {
+  font-style: italic;
+  font-size: 0.9em;
+  margin-top: 1em;
+  text-align: center;
+}
 
-[[Poskusiš vstati]]
-[[Pokličeš na pomoč]]</tw-passagedata><tw-passagedata pid="2" name="Nadaljuj s preiskovanjem sobe" tags="" position="">Nadaljuješ s preiskovanjem sobe in v kotu naletiš na nekaj mehkega. Zdi se, da je to kup slame, ki bi lahko služil kot ležišče.
+h1, h2, h3 {
+  color: #8b0000;
+  text-shadow: 2px 2px 4px #000000;
+}
 
-[[Preišči slamo]]
-[[Vrni se k vratom]]</tw-passagedata><tw-passagedata pid="3" name="Nadaljuješ s klicanjem" tags="" position="">"Prosim, pomagajte mi! Kje sem?" nadaljuješ s klicanjem. Koraki se pospešijo in kmalu zaslišiš, kako se nekdo ustavi pred vrati.
+/* Animacija za utripanje besedila */
+@keyframes flicker {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
 
-[[Umolkneš in čakaš]]
-[[Vprašaš, kdo je tam]]</tw-passagedata><tw-passagedata pid="4" name="Opusti poskus in razmisli o drugih možnostih" tags="" position="">Odločiš se, da je bolje prihraniti energijo. Medtem ko razmišljaš o drugih možnostih, opaziš šibko svetlobo, ki prihaja skozi majhno razpoko v steni.
+.flicker-text {
+  animation: flicker 2s infinite;
+}
 
-[[Preišči razpoko]]
-[[Kliči skozi razpoko]]</tw-passagedata><tw-passagedata pid="5" name="Ostani pri miru" tags="" position="">Ostaneš popolnoma pri miru, ko se vrata odprejo. V sobo vstopi visoka postava, oblečena v temno obleko.
+/* Prilagoditev za temnejši način */
+@media (prefers-color-scheme: dark) {
+  tw-story {
+    background-image: linear-gradient(-135deg, #0a0a0a, #1c1c1c);
+    color: #808080;
+  }
+  
+  tw-passage {
+    background-color: #1c1c1c;
+  }
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">$("body").append('<div class="subtitle" style="color:darkred"><H2>Pobeg</H2></div>');
 
-[[Opazuj v tišini]]
-[[Spregovori prvi]]</tw-passagedata><tw-passagedata pid="6" name="Pokličeš na pomoč" tags="" position="">"Halo! Je kdo tam?" tvoj glas odmeva po praznem prostoru. Za trenutek vlada tišina, nato pa zaslišiš oddaljene korake, ki se približujejo.
+$("body").append('<div class="subtitle" style="color:darkred"><H3>V temi se skriva resnica</H3></div>');
 
-[[Počakaš v tišini]]
-[[Nadaljuješ s klicanjem]]</tw-passagedata><tw-passagedata pid="7" name="Poskusi odpreti ključavnico" tags="" position="">Poskušaš manipulirati s ključavnico, a brez pravega orodja ni možnosti, da bi jo odprl. Medtem ko se ukvarjaš z njo, zaslišiš tiho škripanje iz drugega kota sobe.
+$("body").append('<div class="subtitle" style="color:darkred"><H4>@Boris</H4></div>');
+</script><tw-passagedata pid="1" name="Start" tags="" position="">Tvoje oči se počasi odpirajo v nepredirno temo. Zavest se ti vrača postopoma, kot da bi se prebijal skozi gosto meglo. Počasi se zaveš svojega okolja - ležiš na ledeno mrzlem, grobem kamnu. Vlaga ti prodira v kosti, zrak je težak od vonja po plesni in nečem, kar bi lahko bil... razkroj?
 
-[[Razišči izvor zvoka]]
-[[Nadaljuj delo na ključavnici]]</tw-passagedata><tw-passagedata pid="8" name="Poskusi se osvoboditi verig" tags="" position="">Potegneš za verige, a so trdno pritrjene v steno. Medtem ko se boriš z njimi, opaziš, da je eden od členov nekoliko zarjavel.
+Glava ti pulzira v ritmu srca, vsak utrip prinaša val bolečine. Poskušaš se spomniti, kako si prišel sem, a tvoji spomini so raztrgani in megleni, kot slike iz oddaljenega, grozljivega sna.
 
-[[Poskusi zlomiti zarjaveli člen]]
-[[Opusti poskus in razmisli o drugih možnostih]]</tw-passagedata><tw-passagedata pid="9" name="Poskusi zlomiti zarjaveli člen" tags="" position="">Z vso močjo potegneš za zarjaveli člen. Po nekaj poskusih začutiš, kako popušča. Z zadnjim sunkom ga uspeš zlomiti, a pri tem povzročiš glasen zvok.
+V daljavi zaslišiš pritajene krike, ki zamrejo enako hitro, kot so se pojavili. Ali so bili resnični ali le plod tvoje prestrašene domišljije? Groza te preplavi kot ledena voda.
 
-[[Hitro poišči izhod]]
-[[Ostani pri miru in poslušaj]]</tw-passagedata><tw-passagedata pid="10" name="Poskusiš vstati" tags="" position="">Z naporom se dvigneš na noge. Ko se premikaš, zaslišiš žvenket verig. Šele zdaj opaziš, da so tvoji gležnji vklenjeni. Veriga je dovolj dolga, da ti omogoča nekaj gibanja po sobi.
+Kaj boš storil v tej nočni mori, ki je postala tvoja resničnost?
 
-[[Preišči sobo]]
-[[Poskusi se osvoboditi verig]]</tw-passagedata><tw-passagedata pid="11" name="Počakaš v tišini" tags="" position="">Odločiš se, da boš počakal v tišini. Koraki se ustavijo pred vrati. Slišiš škripanje ključa v ključavnici.
+[[Preišči celico]]
+[[Poskusi se spomniti, kako si prišel sem]]
+[[Pokliči na pomoč]]</tw-passagedata><tw-passagedata pid="2" name="Preišči celico" tags="" position="">S tresočimi se prsti začneš tipati po okolici. Vsak dotik hladnih, vlažnih sten pošlje srh po tvojem hrbtu. Kamen pod tvojimi prsti je grob, mestoma prekrit s spolzkim mahom, ki se ti gnusno lepi na kožo.
 
-[[Pripravi se na soočenje]]
-[[Pretvarjaj se, da spiš]]</tw-passagedata><tw-passagedata pid="12" name="Preišči razpoko" tags="" position="">Ko pogledaš skozi razpoko, vidiš šibko svetlobo na koncu dolgega hodnika. Zdi se, da je to morda pot na svobodo.
+Nenadoma tvoji prsti naletijo na nekaj, kar zagotovo ni kamen. Je hladno in kovinsko, z ostrimi robovi in zapletenimi oblikami. Srce ti poskoči - je to ključ do tvoje svobode?
 
-[[Poskusi razširiti razpoko]]
-[[Pokliči skozi razpoko]]</tw-passagedata><tw-passagedata pid="13" name="Preišči slamo" tags="" position="">Ko preiskaš kup slame, tvoji prsti naletijo na nekaj trdega. Izvlečeš majhen, zarjavel ključ.
+Ko nadaljuješ s preiskovanjem, tvoja roka zdrsne po nečem, kar je vklesano v steno. V temi ne moreš videti, kaj je, a pod prsti začutiš zapletene linije in krivulje. Je to... simbol?
 
-[[Poskusi ključ na svojih verigah]]
-[[Skrij ključ in nadaljuj iskanje]]</tw-passagedata><tw-passagedata pid="14" name="Preišči sobo" tags="" position="">Ko se premikaš po sobi, s prsti tipaš po stenah. Občutiš hladen kamen in tu pa tam vlažen mah. Nenadoma tvoji prsti naletijo na nekaj kovinskega - zdi se, da je to ključavnica.
+V kotu celice začutiš rahel prepih. Ko pritisneš na steno, se del premakne. Je to morda skrivni prehod?
 
-[[Poskusi odpreti ključavnico]]
-[[Nadaljuj s preiskovanjem sobe]]</tw-passagedata><tw-passagedata pid="15" name="Pretvarjaj se, da spiš" tags="" position="">Hitro se uleži na tla in se pretvarjaj, da spiš. Vrata se odprejo in slišiš, kako nekdo vstopi v sobo.
+Dilema te razjeda. Kateremu odkritju se boš posvetil?
 
-[[Nadaljuj s pretvarjanjem]]
-[[Nenadoma "se zbudi"]]</tw-passagedata><tw-passagedata pid="16" name="Pripravi se na soočenje" tags="" position="">Napneš mišice in se pripraviš na karkoli že prihaja. Vrata se počasi odprejo in v sobo vstopi postava, osvetljena z baklo.
+[[Preuči mehanizem-&gt;Pot Mehanizma]]
+[[Preuči simbol-&gt;Pot Simbola]]
+[[Razišči skrivni prehod-&gt;Pot Skrivnega prehoda]]</tw-passagedata><tw-passagedata pid="3" name="Poskusi se spomniti, kako si prišel sem" tags="" position="">Zapreš oči in se poskušaš osredotočiti, a tema za tvojimi vekami je enako nepredirna kot tista v celici. Skozi meglo pozabe se prebijajo posamezni prizori, kot bliski svetlobe v temni noči.
 
-[[Vprašaj, kdo je]]
-[[Poskusi napasti]]</tw-passagedata><tw-passagedata pid="17" name="Razišči izvor zvoka" tags="" position="">Previdno se premikaš proti izvoru škripanja. Ko se približaš, opaziš, da prihaja iz rahlo zrahljane opeke v steni.
+Vidiš star, porumenel zvitek, popisan s čudnimi simboli, ki se zdijo živi... Slišiš nenavadno melodijo, ki ti reže v možgane in te vabi, da ji slediš... Okusiš nekaj sladkega, a hkrati tako grenkega, da ti obrne želodec...
 
-[[Poskusi odstraniti opeko]]
-[[Pokliči skozi režo]]</tw-passagedata><tw-passagedata pid="18" name="Ubogaš ukaz" tags="" position="">Počasi vstanem in se soočim z glasom. Pred seboj zagledam velikega moškega v črni obleki, ki v roki drži nekaj, kar izgleda kot starodaven pergament.
+Med temi fragmenti spomina se pojavi še nekaj - občutek hladne kovine v roki, morda ključa ali mehanizma. In kot da bi ta spomin sprožil verižno reakcijo, se spomniš še nečesa - ozkega, temnega prehoda.
 
-[[Vprašaj o pergamentu]]
-[[Zahtevaj pojasnila o svoji situaciji]]</tw-passagedata><tw-passagedata pid="19" name="Umolkneš in čakaš" tags="" position="">Prenehaš klicati in čakaš v napeti tišini. Slišiš, kako se ključ obrne v ključavnici in vrata se počasi odprejo.
+Vsak spomin prinaša novo vprašanje, novo skrivnost. Je to ključ do tvojega pobega ali past, ki te bo le potisnila globlje v brezno norosti?
 
-[[Ostani pri miru]]
-[[Poskusi steči mimo osebe]]</tw-passagedata><tw-passagedata pid="20" name="Vprašaš, kdo je tam" tags="" position="">"Kdo je tam?" vprašaš z drhtečim glasom. Za trenutek je tišina, nato pa zaslišiš grob glas: "Tiho bodi in vstani!"
+[[Osredotoči se na zvitek-&gt;Pot Simbola]]
+[[Poskusi si priklicati melodijo-&gt;Pot Mehanizma]]
+[[Razmisli o okusu-&gt;Pot Skrivnega prehoda]]
+[[Preuči spomin na mehanizem-&gt;Pot Mehanizma]]
+[[Razišči spomin na ozek prehod-&gt;Pot Skrivnega prehoda]]</tw-passagedata><tw-passagedata pid="4" name="Pokliči na pomoč" tags="" position="">Tvoj krik odmeva po temačnih hodnikih, odbija se od sten in se vrača k tebi, popačen in grozljiv. Za trenutek vlada smrtna tišina, tako gosta, da bi jo lahko rezal z nožem.
 
-[[Ubogaš ukaz]]
-[[Zavrneš ubogati]]</tw-passagedata></tw-storydata>
+Nato zaslišiš korake. Počasne, odmerjene, vse bližje in bližje. Tvoje srce divje razbija, ko se sprašuješ - so to rešitelji ali nekaj nepredstavljivo hujšega?
+
+Koraki se ustavijo tik pred tvojimi vrati. Slišiš težko dihanje, skoraj kot renčanje. Kaj se skriva na drugi strani?
+
+Med čakanjem opaziš, da se v temi nekaj sveti. Je to morda ključ? Ali pa simbol na steni? In ali je to prepih, ki ga čutiš iz kota celice?
+
+[[Pripravi se na boj-&gt;Pot Skrivnega prehoda]]
+[[Skrij se in opazuj-&gt;Pot Simbola]]
+[[Poskusi komunicirati-&gt;Pot Mehanizma]]
+[[Preuči svetleči predmet-&gt;Pot Mehanizma]]
+[[Razišči izvor prepiha-&gt;Pot Skrivnega prehoda]]</tw-passagedata><tw-passagedata pid="5" name="Pot Mehanizma" tags="" position="">Odločiš se osredotočiti na skrivnostni mehanizem. Ko se tvoji prsti dotaknejo hladne kovine, začutiš, kako mehanizem zaživi pod tvojim dotikom. Zaslišiš tiho, srhljivo melodijo, ki prihaja iz samega mehanizma.
+
+Z vsakim premikom delov se melodija spreminja, postaja bolj kompleksna, bolj hipnotična. Nenadoma te preplavi spomin - to je popačena verzija pesmi, ki si jo slišal tik preden si izgubil zavest!
+
+Tvoji prsti se tresejo, ko poskušaš uskladiti gibe s spominom na pesem. Vsak pravilen premik povzroči, da se del stene premakne, odkriva majhne simbole, vklesane v kamen.
+
+Zdi se, da je mehanizem več kot le ključavnica - je starodavna naprava, ki skriva veliko več, kot si sprva mislil. Ali imaš pogum, da odkriješ njene skrivnosti?
+
+[[Nadaljuj z reševanjem uganke mehanizma]]
+[[Preuči odkrite simbole-&gt;Pot Simbola]]
+[[Razišči premaknjeni del stene-&gt;Pot Skrivnega prehoda]]</tw-passagedata><tw-passagedata pid="6" name="Nadaljuj z reševanjem uganke mehanizma" tags="" position="">S tresočimi prsti nadaljuješ s premikanjem delov mehanizma, tvoj um se bori, da bi uskladil gibe s spominom na pesem. Vsak pravilen premik povzroči, da se del stene premakne, razkriva nove skrivnosti.
+
+Simboli na steni začnejo svetiti z bledo, modrikasto svetlobo, ki se zdi, da prihaja iz samega kamna. Melodija postaja vse glasnejša in bolj jasna z vsakim pravilnim premikom, njen ritem se ujema z bitjem tvojega srca.
+
+Čutiš, kako se energija v prostoru zgošča. Zrak postaja težji in naelektren, kot tik pred nevihto. Lasje ti stojijo pokonci, koža ti mravljinči od nevidne sile, ki se zbira okoli tebe.
+
+Ko končno sestaviš celotno melodijo, se del stene odmakne in razkrije skrivni prehod. Iz odprtine piha hladen zrak, poln vonja po starodavnosti in skrivnostih, ki čakajo, da jih odkriješ.
+
+Stojiš na pragu neznanega. Kaj boš storil?
+
+[[Vstopi v skrivni prehod-&gt;Skrivna dvorana]]
+[[Preuči svetleče simbole-&gt;Pot Simbola]]
+[[Vrni se in razišči celico-&gt;Preišči celico]]</tw-passagedata><tw-passagedata pid="7" name="Pot Simbola" tags="" position="">Simbol na steni začne utripati z nenaravno svetlobo. Ko se osredotočiš nanj, se ti pred očmi zavrsti niz podob. Vidiš staro knjigo, popisano s podobnimi simboli. V sredini knjige je vdolbina v obliki ključa.
+
+Medtem ko preučuješ simbol, zaslišiš tiho melodijo, ki prihaja iz smeri, kjer si prej opazil mehanizem. Zdi se, da sta simbol in mehanizem nekako povezana.
+
+V kotu celice začutiš rahel prepih. Je možno, da simbol skriva vhod v skrivni prehod?
+
+[[Išči ključ]]
+[[Prisluhni melodiji-&gt;Pot Mehanizma]]
+[[Razišči izvor prepiha-&gt;Pot Skrivnega prehoda]]</tw-passagedata><tw-passagedata pid="8" name="Išči ključ" tags="" position="">Potipaš svoja oblačila in presenečeno ugotoviš, da imaš v žepu majhen, kovinski predmet. Ko ga potegneš ven, vidiš, da se popolnoma ujema z obliko vdolbine v foliantu iz tvoje vizije. Vrneš se k simbolu na steni in vstaviš ključ v nevidno odprtino.
+
+Ko obrneš ključ, zaslišiš klik in del stene se odmakne, razkriva skrivni prehod. Hkrati zaslišiš, kako se nekje v bližini aktivira mehanizem.
+
+[[Obrni ključ-&gt;Skrivna dvorana]]
+[[Razišči aktivirani mehanizem-&gt;Pot Mehanizma]]
+[[Vstopi v odkrit prehod-&gt;Pot Skrivnega prehoda]]</tw-passagedata><tw-passagedata pid="9" name="Pot Skrivnega prehoda" tags="" position="">Med preiskovanjem celice tvoja roka zdrsne po navidez trdni steni in nenadoma začutiš prepiš. Ko pritisneš močneje, se del stene premakne in razkrije ozek, temen prehod.
+
+Preden vstopiš, opaziš, da je ob vhodu v prehod vklesan simbol, podoben tistemu, ki si ga videl prej. Zdi se, da oddaja slabotno svetlobo.
+
+Iz globine prehoda zaslišiš tiho melodijo, podobno tisti, ki jo je oddajal mehanizem.
+
+[[Vstopi v prehod]]
+[[Preuči simbol-&gt;Pot Simbola]]
+[[Prisluhni melodiji-&gt;Pot Mehanizma]]</tw-passagedata><tw-passagedata pid="10" name="Vstopi v prehod" tags="" position="">Prehod je tesen in temačen. Premikaš se počasi, tipajoč pred seboj. Po nekaj minutah plazenja začutiš, da se prostor širi. Kmalu se znajdeš v večjem prostoru.
+
+Med premikanjem po prehodu zaslišiš, kako se za teboj sproži nekakšen mehanizem. Je to past ali morda ključ do tvoje svobode?
+
+Na stenah prehoda opaziš vklesane simbole, ki svetijo v temi. Zdi se, da ti kažejo pot.
+
+[[Razišči prostor-&gt;Skrivna dvorana]]
+[[Preuči sproženi mehanizem-&gt;Pot Mehanizma]]
+[[Sledi svetlečim simbolom-&gt;Pot Simbola]]</tw-passagedata><tw-passagedata pid="11" name="Skrivna dvorana" tags="" position="">Vstopiš v veliko okroglo dvorano. V središču prostora stoji masiven kamnit oltar, obkrožen s svečami, ki gorijo z nenaravno črnim plamenom. Na oltarju leži odprta stara knjiga, popisan z okultnimi simboli. Zrak je gost in težak, napolnjen z vonjem po kadilu in nečem metalnim.
+
+Ob robu dvorane opaziš zapleten mehanizem, podoben tistemu iz celice. Zdi se, da je povezan z oltarjem.
+
+Na stenah dvorane so vklesani simboli, podobni tistim, ki si jih videl prej. Oddajajo slabotno, utripajočo svetlobo.
+
+[[Približaj se oltarju]]
+[[Preuči mehanizem-&gt;Pot Mehanizma]]
+[[Razišči simbole na stenah-&gt;Pot Simbola]]</tw-passagedata><tw-passagedata pid="12" name="Približaj se oltarju" tags="" position="">Ko se približaš oltarju, opaziš, da so simboli v foliantu pravzaprav napotki za temačen obred. Ob robu strani je narisan simbol, ki je identičen tistemu na steni v celici. V središču simbola pa... Tvoje oči se razširijo od groze, ko prepoznaš obliko. Je to res ključ do tvoje svobode ali vstopnica v še globlji pekel?
+
+Medtem ko preučuješ knjigo, zaslišiš, kako se mehanizem ob robu dvorane začne premikati. Simboli na stenah začnejo utripati hitreje.
+
+[[Izvedi obred]]
+[[Uniči knjigo]]
+[[Pobegni iz dvorane]]
+[[Aktiviraj mehanizem-&gt;Pot Mehanizma]]
+[[Sledi utripajočim simbolom-&gt;Pot Simbola]]</tw-passagedata><tw-passagedata pid="13" name="Izvedi obred" tags="" position="">Odločiš se, da boš sledil navodilom v foliantu. Ko izgovarjaš neznane besede, se prostor začne tresti. Svetloba sveč postaja vse močnejša, dokler te popolnoma ne obda. Za trenutek ne vidiš ničesar, le oslepljujočo svetlobo...
+
+Medtem ko izvajaš obred, slišiš, kako se mehanizem v dvorani vrti z neverjetno hitrostjo. Simboli na stenah utripajo v ritmu tvojih besed.
+
+[[Prebudi se]]
+[[Prekini obred in aktiviraj mehanizem-&gt;Pot Mehanizma]]
+[[Prekini obred in sledi simbolom-&gt;Pot Simbola]]</tw-passagedata><tw-passagedata pid="14" name="Uniči knjigo" tags="" position="">V trenutku panike zgrabiš knjigo  in jo vržeš v plamen črnih sveč. Ko knjiga zagori, zaslišiš nečloveški krik. Prostor se začne rušiti okoli tebe. V zadnjem trenutku opaziš skrita vrata za oltarjem.
+
+Medtem ko se dvorana ruši, vidiš, kako se mehanizem ob robu prostora začne vrteti z noro hitrostjo. Simboli na stenah utripajo kaotično, kot da bi te poskušali opozoriti na nekaj.
+
+[[Zbeži skozi skrita vrata]]
+[[Poskusi ustaviti mehanizem-&gt;Pot Mehanizma]]
+[[Sledi kaosu simbolov-&gt;Pot Simbola]]</tw-passagedata><tw-passagedata pid="15" name="Pobegni iz dvorane" tags="" position="">Odločiš se, da ne boš tvegal. Obrneš se in stečeš proti izhodu. Ko tečeš, slišiš, kako se nekaj prebuja za teboj. Tvoje noge te nosijo hitreje, kot si mislil, da je mogoče. Pred seboj zagledaš šibko svetlobo...
+
+Medtem ko bežiš, opaziš, da simboli na stenah utripajo v ritmu tvojih korakov, kot da bi ti kazali pot. Iz smeri oltarja slišiš, kako se mehanizem vrti vse hitreje, kot bi te poskušal dohiteti.
+
+[[Steči proti svetlobi]]
+[[Sledi utripajočim simbolom-&gt;Pot Simbola]]
+[[Poskusi ustaviti mehanizem-&gt;Pot Mehanizma]]</tw-passagedata><tw-passagedata pid="16" name="Prebudi se" tags="" position="">...v svoji postelji, ves prepoten in z divje razbijajočim srcem. Bil je le sanje? Ko se ozreš po sobi, opaziš na nočni omarici majhen, znan predmet - ključ iz sanj. Tvoje oči se razširijo od groze, ko na steni svoje spalnice zagledaš narisan simbol, identičen tistemu iz nočne more. Kako je to mogoče? Ali se je resnična nočna mora šele začela?
+
+V tišini sobe zaslišiš tiho brnenje, ki prihaja iz smeri simbola. Ko se mu približaš, opaziš, da se za njim skriva majhen mehanizem, podoben tistemu iz sanj.
+
+[[Preuči simbol-&gt;Pot Simbola]]
+[[Razišči mehanizem-&gt;Pot Mehanizma]]
+[[Poskusi se vrniti v sanje-&gt;Start]]</tw-passagedata><tw-passagedata pid="17" name="Zbeži skozi skrita vrata" tags="" position="">Steče skozi vrata tik preden se dvorana za teboj popolnoma zruši. Znajdeš se v dolgem, temačnem hodniku. Tečeš, dokler ne zagledaš svetlobe. Končno prideš na plano in ugotoviš, da si sredi gozda. Svoboden si, a ali si res ušel grozi?
+
+Ko se ozreš nazaj, vidiš, da so drevesa v gozdu popisana s simboli, podobnimi tistim v podzemni ječi. V daljavi slišiš tiho melodijo, ki te kliče nazaj.
+
+[[Nadaljuj pot v svobodo-&gt;Epilog]]
+[[Sledi simbolom nazaj v gozd-&gt;Pot Simbola]]
+[[Prisluhni melodiji-&gt;Pot Mehanizma]]</tw-passagedata><tw-passagedata pid="18" name="Steči proti svetlobi" tags="" position="">S zadnjimi atomi moči pritečeš do izvira svetlobe. Izkaže se, da je to izhod iz podzemne ječe. Znajdeš se na prostem, sredi noči. Luna sveti nad teboj, a zdi se ti, da v njenih sencah vidiš obrise simbola iz ječe. Si res pobegnil ali te še vedno nekaj zasleduje?
+
+Ko se oziraš naokoli, opaziš, da so kamni okoli tebe razporejeni v vzorcu, ki spominja na mehanizem iz podzemlja. V daljavi slišiš tiho melodijo, ki se zdi vse bližje.
+
+[[Nadaljuj pot v svobodo-&gt;Epilog]]
+[[Preuči vzorec kamnov-&gt;Pot Mehanizma]]
+[[Sledi melodiji-&gt;Pot Simbola]]</tw-passagedata><tw-passagedata pid="19" name="Epilog" tags="" position="">Uspelo ti je pobegniti iz skrivnostne ječe, a zdi se, da je to šele začetek nečesa veliko bolj temačnega in grozljivega.
+
+So bile to res le sanje? Kaj pomenijo predmeti in simboli, ki so te spremljali na poti? In kaj predstavlja zloveščna prisotnost, ki jo še vedno čutiš?
+
+Morda boš nekega dne odkril odgovore na ta vprašanja, a ali si res pripravljen soočiti se z resnico? Za zdaj si na varnem, a čutiš, da te nekaj opazuje iz senc. Tvoj pobeg morda ni bil tako uspešen, kot si sprva mislil...
+
+Ko stojiš tam, na robu med znanim in neznanim, se zaveš, da imaš še vedno izbiro. Lahko nadaljuješ svojo pot v navidezno svobodo, lahko pa se vrneš in soočiš s skrivnostmi, ki te še vedno preganjajo.
+
+[[Začni znova|Start]]
+[[Razmisli o dogodivščini]]
+[[Vrni se in razišči skrivnosti-&gt;Start]]</tw-passagedata><tw-passagedata pid="20" name="Razmisli o dogodivščini" tags="" position="">Ko razmišljaš o svoji grozljivi izkušnji, se začneš spraševati o povezavah med elementi zgodbe:
+
+1. Skrivnostni mehanizem in njegova srhljiva melodija
+2. Okultni simbol, ki se pojavlja povsod in se zdi živ
+3. Stara knjiga s temačnimi obredi
+4. Neznana prisotnost, ki te še vedno zasleduje
+5. Ozki prehodi in skrite dvorane, polne skrivnosti
+
+Je možno, da je vse to del nečesa večjega in bolj zloveščega? Morda je čas, da začneš raziskovati te povezave in odkriješ, kaj se v resnici dogaja. Toda ali si res pripravljen soočiti se z resnico, ki se skriva v sencah?
+
+Ko tako razmišljaš, se zaveš, da imaš tri možnosti:
+
+[[Poskusi pozabiti na vse skupaj in živeti normalno življenje-&gt;Epilog]]
+[[Začni raziskovati skrivnosti v resničnem svetu-&gt;Start]]
+[[Vrni se v sanje in soočis s svojimi strahovi-&gt;Start]]</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _toConsumableArray(arr){if(Array.isArray(arr)){for(var i=0,arr2=Array(arr.length);i<arr.length;i++)arr2[i]=arr[i];return arr2}return Array.from(arr)}var _slicedToArray=function(){function sliceIterator(arr,i){var _arr=[],_n=!0,_d=!1,_e=void 0;try{for(var _s,_i=arr[Symbol.iterator]();!(_n=(_s=_i.next()).done)&&(_arr.push(_s.value),!i||_arr.length!==i);_n=!0);}catch(err){_d=!0,_e=err}finally{try{!_n&&_i["return"]&&_i["return"]()}finally{if(_d)throw _e}}return _arr}return function(arr,i){if(Array.isArray(arr))return arr;if(Symbol.iterator in Object(arr))return sliceIterator(arr,i);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(obj){return typeof obj}:function(obj){return obj&&"function"==typeof Symbol&&obj.constructor===Symbol?"symbol":typeof obj};!function(){/**
  * @license almond 0.3.1 Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.
