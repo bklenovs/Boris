@@ -1,1 +1,5 @@
+ikona
 <link href='https://i.postimg.cc/HLrrF78y/Sukico.jpg' rel='icon' type='image/x-icon'/>
+
+img
+<img src="https://.jpg" width="300" height="300" alt="Naslov" class="floatLeft">
