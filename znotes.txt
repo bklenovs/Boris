@@ -10,7 +10,8 @@ harlowe-audio-download
 hal.tracks-new passage-input
 sample
 first: https://od.lk/s/OTBfNDI0MDYzMDhf/RunningUpThatHill.mp3, https://od.lk/s/OTBfNDI0MDYzMDZf/RunningUpThatHill.ogg
-second: https://od.lk/s/OTBfMzQyODA4MDVf/Show%20Must%20Go%20On.mp3, https://od.lk/s/OTBfMzQyODA3ODZf/Show%20Must%20Go%20On.ogg
+second: https://od.lk/s/OTBfMzQyODA4MDVf/Show%20Must%20Go%20On.mp3,
+https://od.lk/s/OTBfMzQyODA3ODZf/Show%20Must%20Go%20On.ogg
 
 start
 sample
